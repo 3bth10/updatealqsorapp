@@ -1,8 +1,8 @@
 {
   "expo": {
     "scheme": "myapp",
-    "name": "Alqsor",
-    "slug": "my-app",
+    "name": "alqsorcunt",
+    "slug": "alqsorcunt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/alqsorlogo.png",
@@ -14,7 +14,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.muss110.myapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -28,11 +32,12 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-router"
     ],
     "extra": {
       "eas": {
-        "projectId": "060779d6-132d-4e0c-a414-11639a2fe322"
+        "projectId": "cb6d791b-25b2-4993-b834-8a34a86b5027"
       }
     }
   }

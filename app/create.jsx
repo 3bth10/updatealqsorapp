@@ -51,7 +51,14 @@ const Create = () => {
 
       <TouchableOpacity onPress={() =>{ 
         add( namehall ,location,how_many, number_heaters , driver , date)
-    show() }
+        setnamehall('')
+        setlocation('')
+        setdriver('')
+        sethow_many('')
+        setnumber_heaters('')
+        setdate('')
+    show() 
+}
         
         } style={{backgroundColor : 'coral' , width : '50%',  borderRadius:10 }}>
     <Text style={styles.btnText}
